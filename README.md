@@ -43,5 +43,6 @@ f. What does `git diff` do?
 
 > `git diff` - list the differences (changes) between the local file not commited and the latest commit of the same file.
 > 
-> Note: when you add then commit a file the _git diff_ will no longer show any result. This means the local file has been commited.
+> Note: when you Git Add then Git Commit a file the _git diff_ will no longer show any result. 
+> Once you commit there will be no differences between the commited version and local version.
 
