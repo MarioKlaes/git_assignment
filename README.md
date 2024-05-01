@@ -46,3 +46,16 @@ f. What does `git diff` do?
 > Note: when you Git Add then Git Commit a file the _git diff_ will no longer show any result. 
 > Once you commit there will be no differences between the commited version and local version.
 
+g. What is the `main` branch?
+
+> The `main` branch is the _master_ branch and should represent the latest stable state of the repository.
+
+h. Besides our initial commit if it is a new repository, should we directly push our changes directly into the `main` branch?
+
+> A good practice is never _git push_ files directlu to the `main` branch.
+> A collaborator should create a _branch_ to work on code changes.
+> Once the changes are done: git add, git commit, git push the code on the branch
+> After that the collaborator has to create a _Pull request_ so the changes can be reviewed/approved before change the 'main' code
+> 
+> To suport this good practice the owner of the repo should add a branch protection rule to prevent direct changes to it.
+> This rule will enforce the good practice of use _Pull request_ to propose and review changes.
